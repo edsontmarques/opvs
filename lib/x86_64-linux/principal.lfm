@@ -1,0 +1,8 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 348
+  Height = 673
+  Top = 214
+  Width = 984
+  Caption = 'Opus - SGO'
+  LCLVersion = '1.2.6.0'
+end
