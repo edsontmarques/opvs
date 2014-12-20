@@ -7,8 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Principal
-  { you can add units after this };
+  Forms, Principal, FrameInicial, MenuPrincipal, UsuarioDAO, FormLogin, Login;
 
 {$R *.res}
 
@@ -17,6 +16,7 @@ begin
   RequireDerivedFormResource := True;
   Application.Initialize;
 		Application.CreateForm(TfrmPrincipal, frmPrincipal);
+		Application.CreateForm(TfrmLogin, frmLogin);
   Application.Run;
 end.
 

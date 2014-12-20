@@ -30,12 +30,18 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="1">
+    <RequiredPackages Count="3">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="FCL"/>
       </Item1>
+      <Item2>
+        <PackageName Value="SQLDBLaz"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="8">
       <Unit0>
         <Filename Value="opus.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -45,9 +51,48 @@
         <Filename Value="principal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Principal"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="frameinicial.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fraInicial"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="FrameInicial"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fabconexao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FabConexao"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="menuprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fraMenuPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="MenuPrincipal"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="usuariodao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UsuarioDAO"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="formlogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormLogin"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Login"/>
+      </Unit7>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

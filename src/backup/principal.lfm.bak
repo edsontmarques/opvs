@@ -1,8 +1,47 @@
-object Form1: TForm1
-  Left = 348
-  Height = 240
-  Top = 214
-  Width = 320
-  Caption = 'Form1'
+object frmPrincipal: TfrmPrincipal
+  Left = 375
+  Height = 720
+  Top = 155
+  Width = 1024
+  Caption = 'Opus - SGO'
+  ClientHeight = 720
+  ClientWidth = 1024
   LCLVersion = '1.2.6.0'
+  inline fraMenu: TfraMenuPrincipal
+    Height = 56
+    Width = 1024
+    Align = alTop
+    AutoSize = True
+    ClientHeight = 56
+    ClientWidth = 1024
+    inherited panPrincipal: TPanel
+      Width = 1024
+      ClientWidth = 1024
+      inherited btnTrabalhos: TSpeedButton
+        Left = 172
+      end
+      inherited btnCompromissos: TSpeedButton
+        Left = 309
+      end
+      inherited btnContatos: TSpeedButton
+        Left = 583
+      end
+      inherited btnTarefas: TSpeedButton
+        Left = 446
+      end
+      inherited btnEstatisticas: TSpeedButton
+        Left = 720
+      end
+      inherited StaticText1: TStaticText
+        Left = 940
+      end
+    end
+  end
+  inline fraApresentacao: TfraInicial
+    Height = 664
+    Top = 56
+    Align = alClient
+    ClientHeight = 664
+    TabOrder = 1
+  end
 end

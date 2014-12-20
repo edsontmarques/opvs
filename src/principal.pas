@@ -5,10 +5,16 @@ unit Principal;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
+		ActnList, Buttons, FrameInicial, MenuPrincipal;
 
 type
+
+		{ TfrmPrincipal }
+
   TfrmPrincipal = class(TForm)
+				fraClient: TfraInicial;
+				fraMenu: TfraMenuPrincipal;
   private
     { private declarations }
   public
